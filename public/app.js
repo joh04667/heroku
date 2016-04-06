@@ -1,9 +1,8 @@
 $(function() {
+ var today = new Date();
 
- $('button').on('click', function() {
-   $('button').append("<h3>I'm making a note here: huge success");
-
- });
+ // pull out icky time stuff just get date
+ $('h1').text('Now is: ' + today.toString().match(/\w+ \w+ \d+ \d+/i));
 
 
 
