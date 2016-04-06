@@ -1,3 +1,21 @@
 body {
   background-color: blanchedalmond;
 }
+
+h2 {
+  color: blue;
+  text-align: center;
+}
+
+.weather, .time {
+  text-align: center;
+}
+
+h1 {
+  color: blue;
+  text-align: center;
+}
+
+.time {
+  color: black;
+}
